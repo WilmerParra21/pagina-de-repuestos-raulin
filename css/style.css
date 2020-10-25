@@ -1,0 +1,263 @@
+body{
+	background-color: lightgray;
+}
+
+h1{
+	font-family: georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid blue;
+
+}
+
+h2,h3, h4, h5{
+	font-family: times, serif;
+	color: black;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+span{
+	font-family: georgia, serif;
+	font-size: 1.6rem;
+}
+
+
+.feactures-icons, .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.feactures-icons, .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.feactures-icons ,.features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+
+.border-bottom-style{
+	border-bottom: .2rem solid blue;
+}
+
+.border-top-style{
+	border-top: .2rem solid blue;
+}
+
+.logotipos{
+	margin: .5rem;
+
+}
+.logotipos:last-of-type{
+	margin-right: 0;
+}
+.logotipos a:hover{
+	cursor: pointer;
+}
+#header{
+	display: block;
+	background-color: darkblue;
+
+}
+
+.text-gold{
+	color: gold;
+}
+
+section.masthead {
+  position: relative;
+  background-color: black;
+  background-image: url('../img/fond-renault.png');
+  background-position: center;
+  background-attachment: scroll;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  box-shadow: .4rem .2rem .2rem blue;
+}
+
+
+.over{
+  position: absolute;
+  background-color: rgba(1, 1, 1, .5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+section.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  section.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  section.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.wrapper{
+		padding: 6rem 0 4rem 0;
+		margin: 0;
+	}
+
+		.wrapper.style3 {
+			width: 100%;
+			background-color: #000;
+			color: #bfbfbf;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+
+		}
+
+			.wrapper.style3 a {
+				color: #8a4680;
+			}
+
+			.wrapper.style3 strong, .wrapper.style3 b {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 label {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 ::-webkit-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 :-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 ::-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 :-ms-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 .formerize-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 header p {
+				color: #999999;
+			}
+			.wrapper.style3 .inner {
+				position: relative;
+				z-index: 2;
+			}
+
+			.wrapper.style3 p {
+				text-transform: uppercase;
+				font-size: .75rem;
+				font-weight: 300;
+				margin: 0 0 .5rem 0;
+				padding: 0 0 1rem 0;
+				letter-spacing: .25rem;
+			}
+
+				.wrapper.style3 p:after {
+					content: '';
+					position: absolute;
+					margin: auto;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					width: 50%;
+					height: 1px;
+					background-color: rgba(255, 255, 255, 0.5);
+				}
+
+			.wrapper.style3:before {
+				-moz-transition: opacity 3s ease;
+				-webkit-transition: opacity 3s ease;
+				-ms-transition: opacity 3s ease;
+				transition: opacity 3s ease;
+				-moz-transition-delay: 1.25s;
+				-webkit-transition-delay: 1.25s;
+				-ms-transition-delay: 1.25s;
+				transition-delay: 1.25s;
+				content: '';
+				display: block;
+				background-color: rgba(0, 0, 0, 0.95);
+				height: 100%;
+				left: 0;
+				opacity: 0.75;
+				top: 0;
+				width: 100%;
+				z-index: 1;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			.wrapper > .inner {
+				width: 90%;
+			}
+
+			.wrapper.style3 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.wrapper {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
+
+ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1rem 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+/* Footer */
+
+	#footer {
+		padding: 4rem 0 2rem 0 ;
+		background: #000;
+		text-align: center;
+	}
+
+		#footer a {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer a:hover {
+				color: #FFF;
+			}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
